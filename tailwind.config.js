@@ -4,10 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        pretu: '#18181B'
+        pretu: '#18181B',
+        pretuu: '#2B2B31'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+    // ...
+  ],
 }
 
