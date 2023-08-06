@@ -14,7 +14,7 @@ export function Carousel() {
 
   return (
     <>
-      <div id="content" className="p-4 flex items-center justify-start overflow-x-auto relative mb-10 scroll-smooth scrollbar-hide md:scrollbar-default">
+      <div id="content" className="p-4 flex items-center justify-start overflow-x-auto relative scroll-smooth scrollbar-hide md:scrollbar-default">
         <Card alt='alongamento' description='Alongamento de Unhas' price={27} img={Item} />
         <Card alt='alongamento' description='Alongamento de Unhas' price={27} img={Item} />
         <Card alt='alongamento' description='Alongamento de Unhas' price={27} img={Item} />
